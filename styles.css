@@ -1,6 +1,18 @@
-container{
+.container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 50px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.one {
+    grid-column: 1;
+    grid-row: 1 / 2;
+}
+.two {
+    grid-column: 1;
+    grid-row: 2 / 3;
+}
+.three {
+    grid-column: 1;
+    grid-row: 3 / 4;
 }
