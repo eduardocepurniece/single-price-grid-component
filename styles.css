@@ -1,37 +1,72 @@
 body{
     background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
 }
 p{
     color: hsl(240, 3%, 7%);
 }
+a{
+    text-decoration: none;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     margin: 72px 8.533%;
+    border-radius: 1.5%;
+    overflow: hidden;
 }
-h1{
-    color:  hsl(179, 62%, 43%);
-    margin: 30px 24px;
+h1, h2, h3, span:first-child{
+    font-weight: 700;
 }
+h2{
+    margin: 25px 24px;
+    font-size: 1.075rem;
+}
+/*----------------------------*/
 .one {
     grid-column: 1;
     grid-row: 1 / 2;
     background-color: hsl(0, 0%, 100%);
 }
+h1{
+    color:  hsl(179, 62%, 43%);
+    margin: 28px 24px;
+    font-size: 1.2rem;
+}
 .one h3{
     color: hsl(71, 73%, 54%);
-    margin: 28px 24px;
+    margin: 20px 24px;
+    font-size: 0.95rem;
+    line-height: 1.2rem;
 }
 .one p {
-    margin: 40px 24px;
+    margin: 0px 24px 30px 24px;
+    font-size: 0.85rem;
+    line-height: 1.6rem;
 }
+/*--------------------------------------*/
 .two {
     grid-column: 1;
     grid-row: 2 / 3;
     color:  hsl(204, 43%, 93%);
     background-color: hsl(179, 62%, 43%);
 }
+.two p{
+    margin: 10px 24px;
+}
+span:first-child{
+    font-size: 2rem;
+}
+.two a{
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    display: block;
+    height: 50px;
+    margin: 30px 24px 20px 24px;
+    border-radius: 20%;
+}
+/*-------------------------------------*/
 .three {
     grid-column: 1;
     grid-row: 3 / 4;
