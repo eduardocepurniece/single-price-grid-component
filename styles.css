@@ -2,7 +2,7 @@ body{
     background-color: hsl(204, 43%, 93%);
 }
 p{
-    color: hsl(218, 22%, 67%);
+    color: hsl(240, 3%, 7%);
 }
 .container{
     display: grid;
@@ -12,6 +12,7 @@ p{
 }
 h1{
     color:  hsl(179, 62%, 43%);
+    margin: 30px 24px;
 }
 .one {
     grid-column: 1;
@@ -19,7 +20,11 @@ h1{
     background-color: hsl(0, 0%, 100%);
 }
 .one h3{
-    color: hsl(71, 73%, 54%)
+    color: hsl(71, 73%, 54%);
+    margin: 28px 24px;
+}
+.one p {
+    margin: 40px 24px;
 }
 .two {
     grid-column: 1;
